@@ -10,7 +10,7 @@ def plot_values(y):
 st.write("""
 # Desafio da produção
 Uma fábrica produz duas variedades de ração, A e B. Os dois tipos devem ser processados em duas máquinas diferentes, M1 e M2.
-M1 possui uma disponibilidade mensal de processamento de 60h e M2 de 40. A ração A precisa de 2 horas
+M1 possui uma disponibilidade mensal de processamento de 60h e M2 de 40h. A ração A precisa de 2 horas
 de processamento em ambas as máquinas. Já a ração B precisa de 3 horas na máquina M1 e somente 1 hora em M2. O lucro líquido/kg vendido de A é de R\$ 60,00 e o de B, R\$
 70,00. Quais devem ser as quantidades produzidas das rações A e B? (Assuma que quantidades fracionárias
 são permitidas, e toda a produção é vendida).
@@ -69,7 +69,7 @@ consumida de tempo da máquina 1, para quaisquer valores de $x_A$ e $x_B$ fica:
 
 st.write("\n                $2x_A + 3x_B$")
 
-st.write("Como sabemos que a máquina tem uma disponibilidade de 12 horas, temos a seguinte restrição:")
+st.write("Como sabemos que a máquina tem uma disponibilidade de 60 horas, temos a seguinte restrição:")
 
 st.write("\n                $2x_A + 3x_B \leq 60$ ")
 
